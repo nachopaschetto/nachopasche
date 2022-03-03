@@ -1,0 +1,25 @@
+{
+  "name": "nachoentrega-master",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/_app.scss css/backup.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nachopaschetto/nachofinal.git"
+  },
+  "author": "nacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nachopaschetto/nachofinal/issues"
+  },
+  "homepage": "https://github.com/nachopaschetto/nachofinal#readme",
+  "description": "",
+  "devDependencies": {
+    "node-sass": "^7.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
